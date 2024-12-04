@@ -1,0 +1,24 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[1]  0 53
+null device 
+          1 
+[1]        0 98813484
+null device 
+          1 
+Warning message:
+In fread("~/external_data/GWAS_catalog/gwas_catalog_v1.0-associations_e113_r2024-11-20.tsv",  :
+  Found and resolved improper quoting out-of-sample. First healed line 415283: <<2021-03-01	33590662	Heilbronner U	2021-02-15	Am J Med Genet B Neuropsychiatr Genet	www.ncbi.nlm.nih.gov/pubmed/33590662	"The Heidelberg Five" personality dimensions: Genome-wide associations, polygenic risk for neuroticism, and psychopathology 20 years after assessment.	Emotional lability	3,268 European ancestry individuals	NA	1p34.2	1	41392978	NR	FOXO6 - RNA5SP45	ENSG00000204060	ENSG00000252563		9388	73959	rs34351096-CT	rs34351096	0	34351096	intergenic_variant	1	0.547	8E-7	6.096910013008056		>>. If the fields are not quoted (e.g. field separator does not appear within any field), try quote="" to avoid this warning.
