@@ -1,6 +1,4 @@
-library(ontologyIndex)
 library(data.table)
-library(webr)
 library(ggplot2)
 setwd("~/MSA_array")
 
@@ -56,4 +54,4 @@ p + geom_point(shape =4, size = 3) + ylim(0, 2) + theme_bw() + theme(legend.posi
 dev.off()
 
 
-## 2. Look at the ontologies.
+## 2. Look at the ontologies - see next script.
